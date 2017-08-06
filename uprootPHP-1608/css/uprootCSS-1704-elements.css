@@ -1,0 +1,77 @@
+/* Class Control */
+.border{
+	border-style: solid;
+	border-radius: 1px 1px 1px 1px; -moz-border-radius: 1px 1px 1px 1px; -webkit-border-radius: 1px 1px 1px 1px;
+	border-left-width: 1px; border-top-color: rgba(0,0,0,0.2);
+	border-top-width: 1px; border-left-color: rgba(0,0,0,0.2);
+	border-right-width: 1px; border-right-color: rgba(0,0,0,0.2);
+	border-bottom-width: 1px; border-bottom-color: rgba(0,0,0,0.2);
+}
+.text-link:hover {cursor: pointer; -webkit-filter: invert(20%); filter: invert(20%);}
+.text-left{text-align: left;}
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+.disp-inline{display: inline-block;}
+.disp-block{display: block;}
+.disp-none{display: none!important;}
+.disp-left{float: left;}
+.disp-right{float: right;}
+.disp-box{-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+.shadow-out{-webkit-box-shadow: 0px 6px 72px -21px;-moz-box-shadow: 0px 6px 72px -21px;box-shadow: 0px 6px 72px -21px;}
+.shadow-in{-webkit-box-shadow: inset 0px 6px 72px -21px;-moz-box-shadow: inset 0px 6px 72px -21px;box-shadow: inset 0px 6px 72px -21px;}
+.shadow-in-top{-webkit-box-shadow: inset 0px 16px 33px -21px;-moz-box-shadow: inset 0px 16px 33px -21px;box-shadow: inset 0px 16px 33px -21px;}
+.shadow-in-right{-webkit-box-shadow: inset -16px 8px 33px -21px;-moz-box-shadow: inset -16px 8px 33px -21px;box-shadow: inset -16px 8px 33px -21px;}
+.shadow-in-bottom{-webkit-box-shadow: inset 0px -16px 33px -21px;-moz-box-shadow: inset 0px -16px 33px -21px;box-shadow: inset 0px -16px 33px -21px;}
+.shadow-in-left{-webkit-box-shadow: inset 16px 6px 33px -21px;-moz-box-shadow: inset 16px 6px 33px -21px;box-shadow: inset 16px 6px 33px -21px;}
+.shadow-out, .shadow-in-top, .shadow-in-right, .shadow-in-bottom, .shadow-in-left{-webkit-box-shadow: rgba(0,0,0,1);-moz-box-shadow:rgba(0,0,0,1);box-shadow:rgba(0,0,0,1);}
+/* Element Control */
+
+div{text-align: center;}
+hr{border: none; height: 1px; background: rgba(0,0,0,0.2); margin: 0px;}
+a, a:hover, a:link, a:active, a:visited{text-decoration: none!important;}
+a:hover{cursor: pointer; -webkit-filter: invert(30%); filter: invert(30%);}
+h1, h2, h3, h4, h5{margin: 10px 0px 0px 0px;}
+p{margin: 0px; padding: 10px;}
+	h1, h2, h3, h4, h5,p{-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+
+/* Form Control */
+
+form, label, input, button, select, textarea{display: inline-block; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;vertical-align: top; min-height: 26px;}
+input, select, textarea{width: 240px; min-width: 240px; max-width: 240px;}
+input, button, select, textarea{
+	outline: none; outline-style:none; -webkit-appearance: none; -moz-appearance: none;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	padding: 2px; margin: 0px;
+	background: transparent; color: rgba(0,0,0,0.2);
+	border-style: solid;
+	border-width: 1px; border-color: rgba(0,0,0,0.2);
+}
+
+label{padding: 4px 4px 0px 0px; width: 80px; text-align: right; font-weight: bold;color: rgba(0,0,0,0.2);}
+
+input{}
+input::-webkit-div input-placeholder,textarea::-webkit-div input-placeholder, select::-webkit-div input-placeholder {color: rgba(0,0,0,0.2);}
+input::-moz-placeholder, textarea::-moz-placeholder, select::-moz-placeholder {color: rgba(0,0,0,0.2);}
+input:-ms-div input-placeholder, textarea:-ms-div input-placeholder, select:-ms-div input-placeholder {color: rgba(0,0,0,0.2);}
+input:-moz-placeholder, textarea:-moz-placeholder, select:-moz-placeholder {color: rgba(0,0,0,0.2);}
+input:focus, textarea:focus, select:focus{
+	outline: none; outline-style:none; -webkit-appearance: none; -moz-appearance: none;
+	background: rgba(0,0,0,0.2); color: rgba(0,0,0,0.4);
+	border-color: rgba(0,0,0,0.0);
+}
+
+button{font-weight: bold;background:rgba(0,0,0,0.2);color:rgba(0,0,0,0.4);border-color:rgba(0,0,0,0.0);}
+button:hover{
+	cursor: pointer;
+	outline: none; outline-style:none; -webkit-appearance: none; -moz-appearance: none;
+	background: transparent; color: rgba(0,0,0,0.6);
+	border-width: 1px; border-color: rgba(0,0,0,0.4);
+}
+button:focus, input:focus{outline: none; outline-style:none; -webkit-appearance: none; -moz-appearance: none;}
+
+select{}
+
+textarea{}
+textarea::-webkit-resizer{border-style: solid;background: transparent; color: rgba(0,0,0,0.4);}

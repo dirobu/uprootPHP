@@ -1,0 +1,30 @@
+.text-red, .text-red:link, .text-red a{color: #F6412D;}
+.text-pink, .text-pink:link, .text-pink a{color: #EB1561;}
+.text-purple, .text-purple:link, .text-purple a{color: #9C1CB1;}
+.text-blue, .text-blue:link, .text-blue a{color: #1193F5;}
+.text-green, .text-green:link, .text-green a{color: #48AF4B;}
+.text-orange, .text-orange:link, .text-orange a{color: #FF9800;}
+.text-yellow, .text-yellow:link, .text-yellow a{color: #FFEC19;}
+.text-clear, .text-clear:link, .text-clear a{color: rgba(0,0,0,0.4);}
+.text-white, .text-white:link, .text-white a{color: #FFFFFF;}
+.text-cloud, .text-cloud:link, .text-cloud a{color: #EEEEEE;}
+.text-grey, .text-grey:link, .text-grey a{color: #9D9D9D;}
+.text-coal, .text-coal:link, .text-coal a{color: #4A4A4A;}
+.text-black, .text-black:link, .text-black a{color: #333333;}
+
+.back-red{background: #F6412D;}
+.back-pink{background: #EB1561;}
+.back-purple{background: #9C1CB1;}
+.back-blue{background: #1193F5;}
+.back-green{background: #48AF4B;}
+.back-orange{background: #FF9800;}
+.back-yellow{background: #FFEC19;}
+.back-clear{background: rgba(0,0,0,0.4);}
+.back-white{background: #FFFFFF;}
+.back-cloud{background: #EEEEEE;}
+.back-grey{background: #9D9D9D;}
+.back-coal{background: #4A4A4A;}
+.back-black{background: #333333;}
+/* Custom */
+.back-dirobu{background: #3F7970;}
+.text-dirobu, .text-dirobu:link, .text-dirobu a{color: #3F7970;}
